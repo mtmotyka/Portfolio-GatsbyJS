@@ -1,0 +1,18 @@
+.btn {
+    display: inline-block;
+    color: $color-blue;
+    border: 1px solid $color-blue;
+    padding: 12px 40px 14px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: $light;
+    text-align: center;
+    letter-spacing: 9px;
+    transition: all .25s;
+    background-color: transparent;
+
+    &:hover {
+        background-color: rgba($color: $color-blue, $alpha: 0.1);
+        color: $color-blue;
+    }
+}

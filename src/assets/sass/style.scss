@@ -1,0 +1,134 @@
+/**
+* styles.scss
+* ---
+* Main `sass` file. Import here `sass` files
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=IBM+Plex+Sans:wght@100;300;400;700&display=swap&subset=latin-ext');
+
+@import "modules/bootstrap/bootstrap";
+@import "modules/bootstrap/mixins/_breakpoints";
+@import "modules/_variables";
+@import "modules/_mixins";
+@import "modules/_hamburgers";
+
+@font-face {
+  font-family: 'SF Mono', sans-serif;
+  src: url('../fonts/SFMonoLight.woff')
+}
+
+
+body {
+  background-color: $color-gray;
+  color: $text-color;
+  font-family: $font-ibm;
+  font-style: normal;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-weight: 300;
+  overflow-x: hidden;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+html {
+  height: 100%;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto 400px;
+}
+b,
+strong {
+  font-weight: 700;
+}
+.center,
+.aligncenter {
+  text-align: center;
+  margin: 0 auto;
+}
+p {
+  color: $text-color;
+  margin: 0px;
+  font-weight: $light;
+  letter-spacing: 2px;
+  line-height: 1.9;
+}
+a {
+  color: $text-color;
+  font-weight: $regular;
+  margin: 0px;
+  transition: all 150ms linear;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+svg {
+  transition: all 150ms linear;
+  path {
+    transition: all 150ms linear;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  margin: 0px;
+  line-height: 1.1;
+}
+h2 {
+  font-family: $font-arimo;
+  letter-spacing: 5px;
+  color: #fff;
+  font-weight: $bold;
+  font-size: 32px;
+  margin-bottom: 30px;
+
+  .number {
+    color: $color-blue;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: $font-sf;
+    font-weight: $light;
+  }
+}
+ul,
+ol,
+address {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  font-weight: $regular;
+}
+.appleFix {
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.anchor {
+  display: block;
+  height: 74px;
+  margin-top: -74px;
+  visibility: hidden;
+}
+
+
+// Custom css
+@import "partials/_elements";
+@import "partials/_glitch";
+
+
+//Pages
+@import "pages/_page-home";
+
+
+//Components
+
+// Media
+@import "modules/_media";
