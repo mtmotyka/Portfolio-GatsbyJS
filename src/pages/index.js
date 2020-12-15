@@ -156,7 +156,7 @@ const IndexPage = () => (
           </h2>
         </div>
         <div className="col-md-6">
-          <form name="test" netlify>
+          <form name="test" method="POST" netlify>
             <label>
               Name <input type="text" name="name" />
             </label>
