@@ -148,6 +148,23 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+    <section className="home-section-5">
+      <div className="row">
+        <div className="col-md-6">
+          <h2 className="home-section-5__title">
+            <span className="number">04.</span> Kontakt
+          </h2>
+        </div>
+        <div className="col-md-6">
+          <form name="test" netlify>
+            <label>
+              Name <input type="text" name="name" />
+            </label>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </Layout>
 )
 
