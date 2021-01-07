@@ -9,7 +9,7 @@ const Footer = () => {
       </a>
       <div className="footer__socials-container socials-container">
         <a
-          href="/"
+          href="https://www.linkedin.com/in/mateusz-motyka-b3a047160/"
           target="_blank"
           rel="noreferrer"
           className="socials-container__single-item"
@@ -25,7 +25,7 @@ const Footer = () => {
           </svg>
         </a>
         <a
-          href="/"
+          href="https://github.com/mtmotyka"
           target="_blank"
           rel="noreferrer"
           className="socials-container__single-item"
@@ -41,7 +41,7 @@ const Footer = () => {
           </svg>
         </a>
         <a
-          href="/"
+          href="https://www.behance.net/mtmotykadb52"
           target="_blank"
           rel="noreferrer"
           className="socials-container__single-item"
