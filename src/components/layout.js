@@ -2,7 +2,7 @@ import React from "react"
 import { CookiesProvider, withCookies } from "react-cookie"
 
 import Header from "./header"
-
+import Footer from "./footer"
 import "../assets/sass/style.scss"
 
 class Layout extends React.Component {
@@ -58,6 +58,7 @@ class Layout extends React.Component {
             //   </button>
             // </div>
           }
+          <Footer />
         </CookiesProvider>
       </>
     )

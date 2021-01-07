@@ -14,10 +14,11 @@ const IndexPage = () => (
       <h1 className="home-section-1__subtitle">
         Front - end developer <br /> <span>ex ux designer</span>
       </h1>
-      <a href="#start" className="btn">
+      <a href="#o-mnie" className="btn">
         Start
       </a>
     </section>
+    <span className="anchor" id="o-mnie"></span>
     <section className="home-section-2">
       <div className="row">
         <div className="col-md-7">
@@ -53,8 +54,9 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+    <span className="anchor" id="umiejetnosci"></span>
     <section className="home-section-3">
-      <div className="row align-items-center">
+      <div className="row align-items-center flex-md-row flex-column-reverse">
         <div className="col-md-5">
           <div className="inner">
             <ul className="inner__list">
@@ -83,25 +85,27 @@ const IndexPage = () => (
             Jako Front-End Developer mam opanowanego HTMLa oraz CSSa, których
             znajomośc oceniam na bardzo dobrą. W projektach wykorzystuję również
             preprocesor SCSS. Aktualnie staram się pisaś (o ile to możliwe)
-            wszelkie projektym na Gatsbym. Większość projektów - niezależnie od
-            technologii - podpinam pod Wordpressa, które znajomośc oceniam na
-            dobrą. <br />W swojej pracy wykorzystuję również doświadczenie UXa,
-            dzięki czemu nie mam problemu z operowaniem na wszelkiego rodzaju
-            programach graficznych, głównie firmy Adobe.
+            wszelkie projektym na Gatsbym, aby go jeszcze lepiej wytrenować.
+            Większość projektów - niezależnie od technologii - podpinam pod
+            Wordpressa, którego znajomość oceniam na ponad dobrą. <br />W swojej
+            pracy wykorzystuję również doświadczenie UXa, dzięki czemu nie mam
+            problemu z operowaniem na wszelkiego rodzaju programach graficznych,
+            głównie firmy Adobe.
           </p>
         </div>
       </div>
     </section>
+    <span className="anchor" id="doswiadczenie"></span>
     <section className="home-section-4">
       <h2 className="home-section-4__title">
         <span className="number">03.</span> Doświadczenie
       </h2>
       <div className="row company-row">
-        <div className="col-md-3 column column--company">
+        <div className="col-lg-3 column column--company">
           <p className="column__company-name">ADream</p>
           <p className="column__date">09-2019-current</p>
         </div>
-        <div className="col-md-9 column column--desc">
+        <div className="col-lg-9 column column--desc">
           <h3 className="column__position">Front-End Developer</h3>
           <p className="column__desc">
             Po niecałym roku jako UX Designer stwierdziłem, że nie zadowala mnie
@@ -115,11 +119,11 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="row company-row">
-        <div className="col-md-3 column column--company">
+        <div className="col-lg-3 column column--company">
           <p className="column__company-name">ADream</p>
           <p className="column__date">11.2018-09.2019</p>
         </div>
-        <div className="col-md-9 column column--desc">
+        <div className="col-lg-9 column column--desc">
           <h3 className="column__position">UX Designer</h3>
           <p className="column__desc">
             W listopadzie 2018r. dostałem się na staż w Agencji Interaktywnej
@@ -132,11 +136,11 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="row company-row">
-        <div className="col-md-3 column column--company">
+        <div className="col-lg-3 column column--company">
           <p className="column__company-name">WSZiB</p>
           <p className="column__date">10.2015-06.2019</p>
         </div>
-        <div className="col-md-9 column column--desc">
+        <div className="col-lg-9 column column--desc">
           <h3 className="column__position">Inżynier</h3>
           <p className="column__desc">
             W 2015 roku rozpocząłem studia na uczelni Wyższa Szkoła Zarządzania
@@ -145,23 +149,6 @@ const IndexPage = () => (
             okazało to nie to co chciałem robić. W czerwcu 2019 roku obroniłem
             pracę inżynierską i uzyskałem tytuł inżyniera
           </p>
-        </div>
-      </div>
-    </section>
-    <section className="home-section-5">
-      <div className="row">
-        <div className="col-md-6">
-          <h2 className="home-section-5__title">
-            <span className="number">04.</span> Kontakt
-          </h2>
-        </div>
-        <div className="col-md-6">
-          <form name="test" method="POST" netlify>
-            <label>
-              Name <input type="text" name="name" />
-            </label>
-            <button type="submit">Send</button>
-          </form>
         </div>
       </div>
     </section>
