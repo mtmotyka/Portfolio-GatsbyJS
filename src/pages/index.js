@@ -109,12 +109,13 @@ const IndexPage = () => (
           <h3 className="column__position">Front-End Developer</h3>
           <p className="column__desc">
             Po niecałym roku jako UX Designer stwierdziłem, że nie zadowala mnie
-            to co robię, a od zawsze miałem ciąg do programowanie. Postanowiłem
-            zmienić stanowisko na Front-End Developera i od września 2019 roku
-            zajmuje się już tylko tym. W ADream do moich głównym zadań należy
-            kodowanie i wdrażanie stron oraz serwisów internetowych. Zajmuje się
-            również ich późniejszą obsługą, serwisowaniem i zabezpieczaniem. Od
-            czasu do czasu zakoduje też mejling czy stopkę mejlową.
+            to co robię, a wcześniej już trochę bawiłem się programowaniem.
+            Postanowiłem zmienić stanowisko na Front-End Developera i od
+            września 2019 roku zajmuje się już tylko tym. W ADream do moich
+            głównym zadań należy kodowanie i wdrażanie stron oraz serwisów
+            internetowych. Zajmuje się również ich późniejszą obsługą,
+            serwisowaniem i zabezpieczaniem. Od czasu do czasu zakoduje też
+            mejling czy stopkę mejlową.
           </p>
         </div>
       </div>
