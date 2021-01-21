@@ -85,6 +85,11 @@
             margin-top: 50px;
         }
 
+        &__image {
+            filter: grayscale(1);
+            -webkit-filter: grayscale(1);
+        }
+
         span {
             position: relative;
             display: block;

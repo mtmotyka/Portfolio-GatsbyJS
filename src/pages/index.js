@@ -45,7 +45,7 @@ const IndexPage = () => (
           <div className="image-container">
             <span>
               <img
-                src={require("../assets/images/avatar.png")}
+                src={require("../assets/images/avatar.jpg")}
                 alt="Mateusz Motyka"
                 className="img-fluid image-container__image"
               />
